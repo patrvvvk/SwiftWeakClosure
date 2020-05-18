@@ -14,7 +14,7 @@ var instanceOfSomeClass: SomeEmptyClass? = .init()
 
 // The closure that will use the object which might be nil at the moment of execution
 let closure = instanceOfSomeClass ?> {
- print($0)
+print($0)
 }
 ```
 For more see section **Playground Examples**
@@ -35,7 +35,7 @@ func &> <Instance1, Instance2, Instance3>(onInstance: (Instance1?, Instance2?, I
 
 ```Swift
 (anyObject, anyObject2...) &> { anyObject, anyObject2 ...
-  // Implementation
+// Implementation
 }
 ```
 
@@ -46,8 +46,8 @@ var anotherInstance: SomeEmptyClass? = .init()
 
 // Prints description of two objects after 6 seconds
 DispatchQueue.main.asyncAfter(deadline: .now() + 6, execute: (instance, instance2) &> { a, b in
-  print(a)
-  print(b)
+print(a)
+print(b)
 })
 
 ```
@@ -55,4 +55,3 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 6, execute: (instance, instance
 # Playground Examples
 
 *TODO*
-
