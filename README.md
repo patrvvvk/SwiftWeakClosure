@@ -7,7 +7,7 @@ The target for this Swift language extension is to avoid strong reference cycles
 # Usage
 
 ## Weak Closure
-Use `?>` operator to cast the instance used in closure as a weak. The defined closure will not execute is the instance is `nil`
+Use `?>` operator to cast the instance used in closure as a weak. The defined closure will not execute if the instance is `nil`
 at the moment of execution of outer wrapper closure.
 
 ### Example:
