@@ -1,3 +1,4 @@
+//  Copyrights (c) 2020 Patryk Budzinski.
 import Foundation
 
 /*
