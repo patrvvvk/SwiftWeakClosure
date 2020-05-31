@@ -54,6 +54,16 @@ print(b)
 
 ```
 
-# Playground Examples
+# Installation
 
-*TODO*
+Installation can be done via the swift package manager. The instructions how to do it are available [on the Apple Developer website.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app "Developer Apple")
+
+## Upcomming
+
+See `/feature` branches for what's upcomming.
+
+## Contact
+
+You can contact me via email [swiftweakclosure@budzinski.dev](mailto:swiftweakclosure@budzinski.dev)
+
+My website [budzinski.dev.](https://budzinski.dev "About me")
