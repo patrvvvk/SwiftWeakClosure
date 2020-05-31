@@ -1,5 +1,7 @@
 # SwiftWeakClosure
 
+![Logo](SwiftWeakClosureLogo.png)
+
 The target for this Swift language extension is to avoid strong reference cycles when working with closures. 
 
 # Usage
